@@ -4,6 +4,17 @@
 <array>
 	<dict>
 		<key>LINFunctionName</key>
+		<string>MultiLang</string>
+		<key>LINCompletionPatterns</key>
+		<array>
+			<dict>
+				<key>Objective-C</key>
+				<string>localizedStringForKey:</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>LINFunctionName</key>
 		<string>NSLocalizedString</string>
 		<key>LINCompletionPatterns</key>
 		<array>

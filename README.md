@@ -1,5 +1,5 @@
 # Lin
-Lin is a Xcode plugin that provides auto-completion for `NSLocalizedString`.  
+Lin is a Xcode plugin that provides auto-completion for `NSLocalizedString`.
 Both Objective-C and Swift are supported.
 
 [![Build Status](https://travis-ci.org/questbeat/Lin.svg?branch=master)](https://travis-ci.org/questbeat/Lin)
@@ -8,7 +8,7 @@ Both Objective-C and Swift are supported.
 
 
 ## Installation
-Download the project and build it, and then relaunch Xcode.  
+Download the project and build it, and then relaunch Xcode.
 Lin will be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins` automatically.
 
 If you want to uninstall Lin, remove Lin.xcplugin in the `Plug-ins` directory.
@@ -19,6 +19,7 @@ If you want to uninstall Lin, remove Lin.xcplugin in the `Plug-ins` directory.
   * Xcode 6.1
   * Xcode 6.2 beta
 * Supported functions
+  * localizedStringForKey:
   * NSLocalizedString
   * NSLocalizedStringFromTable
   * NSLocalizedStringFromTableInBundle
